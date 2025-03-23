@@ -1,4 +1,17 @@
+# Fit Tracker App
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Overview
+
+Fit Tracker is an AI-powered workout tracking application that counts exercise reps using advanced body tracking technology. Our vision is to build a comprehensive AI personal trainer to guide and track your fitness journey.
+
+## Features
+
+- 🏋️ **Rep Counter:** Tracks workout repetitions in real time.
+- 📹 **MediaPipe Pose Integration:** Utilizes MediaPipe Pose for body tracking and exercise analysis.
+- 💪 **Biceps Exercise:** Currently supports bicep curl tracking.
+- 🔜 **More Exercises Coming Soon:** We're working on expanding to other exercises.
 
 ## Getting Started
 
@@ -14,23 +27,23 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the app in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Select your workout (currently supports bicep curls).
+2. Allow camera permissions for real-time body tracking.
+3. Start your workout and track your reps live.
 
-## Learn More
+## Vision
 
-To learn more about Next.js, take a look at the following resources:
+Our goal is to create a **complete AI personal trainer** that:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Monitors and analyzes multiple exercises.
+- Provides personalized workout insights.
+- Enhances your fitness journey with cutting-edge AI technology.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
